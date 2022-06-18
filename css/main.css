@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 81px;
+}
+
+body {
+  margin: 0;
+  padding: 0 15px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-box-ul {
+  display: flex;
+}
+
+li {
+  margin-right: 33px;
+  list-style: none;
+  color: rgba(131, 136, 143, 1);
+  font-size: 12px;
+  line-height: 15px;
+}
+a {
+  text-decoration: none;
+}
