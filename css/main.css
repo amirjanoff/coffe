@@ -2,32 +2,33 @@
   box-sizing: border-box;
 }
 
-.container {
-  max-width: 1440px;
-  margin: 0 81px;
-}
-
 body {
   margin: 0;
-  padding: 0 15px;
+  font-family: "Fraunces";
 }
 
-.main-header {
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.main-header__inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 44px 0px;
 }
-
-.header-box-ul {
+.main-header__inner-list {
   display: flex;
+  gap: 30px;
 }
-
-li {
-  margin-right: 33px;
+.main-header__inner-list li {
   list-style: none;
-  color: rgba(131, 136, 143, 1);
+}
+.main-header__inner-list li a {
+  text-decoration: none;
+  color: rgb(131, 136, 143);
   font-size: 12px;
   line-height: 15px;
-}
-a {
-  text-decoration: none;
-}
+}/*# sourceMappingURL=main.css.map */
